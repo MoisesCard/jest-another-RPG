@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a82a1;
+    border-radius: 50px;
+    box-shadow:  -25px -25px 50px #316f89,
+             25px 25px 50px #4396b9;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+nav:active{
+    box-shadow: inset 25px 25px 50px #316f89,
+            inset -25px -25px 50px #4396b9;
+}
